@@ -15,6 +15,6 @@
 #
 # Dockerfile for Yarn
 #
-FROM node:alpine
+FROM node
 MAINTAINER Jeremie Robert <appydo@gmail.com> version: 1
 RUN yarn install
